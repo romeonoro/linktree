@@ -1,4 +1,3 @@
-// Adiciona efeito ao clicar nos links
 const links = document.querySelectorAll('.link');
 
 links.forEach(link => {
@@ -14,3 +13,14 @@ links.forEach(link => {
     link.style.transform = 'scale(1)';
   });
 });
+
+window.addEventListener('DOMContentLoaded', () => {
+    const elementos = document.querySelectorAll('.titulo, .links, .email-container');
+  
+    elementos.forEach((el, i) => {
+      setTimeout(() => {
+        el.classList.add('fade-in');
+      }, i * 200); 
+    });
+  });
+  
