@@ -1,0 +1,66 @@
+body {
+    background-color: #0d0d0d;
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px 20px;
+  }
+  
+  .profile-gif {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    margin: 3px 0;
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .container {
+    margin-top: 30px;
+  }
+  
+  .link {
+    display: block;
+    border: 1px solid white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 90%;
+    max-width: 400px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .link:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+  }
+  
+  .email-container {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  
+  .email-link {
+    color: #aaa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .email-link:hover {
+    color: white;
+  }
+  
